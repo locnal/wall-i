@@ -1,6 +1,6 @@
 #!/bin/sh
 
-wall=$(find ~/pix/wall -type f -name "*.jpg" -o -name "*.png" -o -name "*.jpeg" | shuf -n 1)
+wall=$(find ~/directory/yourstoredpicspathgoeshere -type f -name "*.jpg" -o -name "*.png" -o -name "*.jpeg" | shuf -n 1)
 
 # bg wallpaper
 xwallpaper --zoom $wall
